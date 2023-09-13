@@ -1,0 +1,55 @@
+
+h1{
+    color: lightblue;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    color: gray;
+    font-family: verdana;
+    font-size: 16px;
+}
+li{
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: cursive;
+}
+img{
+    width:  200px;
+    height: 200px;
+    border-radius: 50px;
+    /*Menengahkan Gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+}
+a:link{
+    color:midnightblue
+}
+a:visited{
+    color : green;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: darkcyan;
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 158, 84);
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size: 28px;
+    
+}
+.button:hover{
+background-color: orange;
+}
+.button:active{
+    background-color: chocolate;
+    box-shadow: 0 5px #130c0c;
+}
